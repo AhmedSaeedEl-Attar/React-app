@@ -13,7 +13,7 @@ export default function Home() {
     <HomeSection>
       <div className="container">
         <HomeContent>
-          <ConName1>Ahmed Yasien</ConName1>
+          <ConName1>Ahmed Saeed</ConName1>
           <ConName3>Front End developer</ConName3>
           <p>
             Iam a professional <ConPspan>UX Designer</ConPspan> and Front-End
