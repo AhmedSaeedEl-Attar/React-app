@@ -16,7 +16,9 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Linka href="#">About</Linka>
+              <Link className="lin" to={"/todo"}>
+                Todo
+              </Link>
             </li>
             <li>
               <Linka href="#proto">Portofolio</Linka>

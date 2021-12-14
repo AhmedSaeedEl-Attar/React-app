@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./Components/Navbar/Navbar";
 import Contact from "./Components/Contact/Contact";
 import Index from "./Components/Index/Index";
-
+import Todo from "./Components/Todo/Todo";
 // App Component
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Routes>
         <Route path={"/"} exact element={<Index />} />
         <Route path={"/contact"} exact element={<Contact />} />
+        <Route path={"/todo"} exact element={<Todo />} />
       </Routes>
     </BrowserRouter>
   );
