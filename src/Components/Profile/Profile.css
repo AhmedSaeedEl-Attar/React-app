@@ -1,0 +1,33 @@
+.prrofileSection {
+  background: #ffffff;
+  padding-bottom: 60px;
+}
+.profileContent {
+  display: flex;
+  justify-content: space-around;
+}
+.personalData,
+.skills {
+  width: 48%;
+}
+.personalData h1,
+.skills h1 {
+  margin-bottom: 20px;
+}
+.personalData .leftSide {
+  width: 20%;
+}
+.personalData .rightSide {
+  width: 79%;
+}
+.personalData .leftSide p,
+.personalData .rightSide p {
+  margin-bottom: 6px;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.dattta {
+  justify-content: space-between;
+  display: flex;
+}

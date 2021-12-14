@@ -1,0 +1,9 @@
+.footer {
+  text-align: center;
+  padding: 20px 0px;
+  background-color: floralwhite;
+}
+.footer div {
+  font-size: 28px;
+  font-weight: 500;
+}
