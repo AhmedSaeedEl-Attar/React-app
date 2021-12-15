@@ -1,0 +1,89 @@
+.crudapp {
+  width: 100%;
+  min-height: 86vh;
+  max-height: auto;
+  background: crimson;
+}
+.crudappcontent {
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+}
+.crudappcontent .crudapph1 {
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.crudadppform {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.crudadppform input {
+  width: 80%;
+  padding: 14px;
+  border: 0;
+  outline: 0;
+  transition: all 0.5s;
+}
+.crudadppform input:focus {
+  outline: 0;
+  border: 0;
+  border-radius: 10px;
+}
+.crudadppform button {
+  width: 15%;
+  padding: 9px;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  font-size: 25px;
+  cursor: pointer;
+  background: chartreuse;
+}
+
+.crudappcontent ul {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.crudappcontent ul li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.crudappcontent ul li span {
+  width: 70%;
+  background: ghostwhite;
+  padding: 10px 0px;
+  border-bottom: 1.5px solid;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.crudappcontent ul li button {
+  width: 14%;
+  padding: 11px 0px;
+  border: 0;
+  outline: 0;
+  border-radius: 10px;
+  font-size: 17px;
+  cursor: pointer;
+  background: darkturquoise;
+}
+.buttonColor {
+  background: rgb(108, 11, 130);
+  color: #fff;
+}
+.noitem {
+  background: beige;
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+}

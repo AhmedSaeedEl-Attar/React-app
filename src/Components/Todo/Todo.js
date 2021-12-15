@@ -48,7 +48,6 @@ function Showlist(props) {
 class Addlist extends Component {
   state = {
     name: "",
-    age: "",
   };
   handleChange = (e) => {
     this.setState({

@@ -21,10 +21,14 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Linka href="#proto">Portofolio</Linka>
+              <Link className="lin" to={"/weather"}>
+                Weather
+              </Link>
             </li>
             <li>
-              <Linka href="#">Profile</Linka>
+              <Link className="lin" to={"/crud"}>
+                CrudApp
+              </Link>
             </li>
             <li>
               <Linka href="#work">Work</Linka>
