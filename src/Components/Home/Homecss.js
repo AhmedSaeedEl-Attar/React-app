@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const HomeSection = styled.div`
   background-image: url("images/Home/home-bg.jpg");
+  background-position: center;
   height: 500px;
   background-size: cover;
   position: relative;
@@ -19,6 +20,9 @@ export const ConName1 = styled.h1`
   font-weight: 700;
   color: #ff2424;
   margin-bottom: 10px;
+  @media (max-width: 750px) {
+    font-size: 50px;
+  }
 `;
 export const ConName3 = styled.h3`
   font-size: 30px;

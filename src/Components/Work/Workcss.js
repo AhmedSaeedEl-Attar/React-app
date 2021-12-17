@@ -16,6 +16,9 @@ export const WorkContent = styled.div`
   align-items: center;
   justify-content: space-around;
   margin-top: 23px;
+  @media (max-width: 750px) {
+    flex-direction: column;
+  }
 `;
 export const WorkItem = styled.div`
   text-align: center;
@@ -27,6 +30,10 @@ export const WorkItem = styled.div`
   justify-content: center;
   padding: 17px;
   border: 2px solid;
+  @media (max-width: 750px) {
+    width: 277px;
+    margin-bottom: 30px;
+  }
 `;
 
 export const Icon = styled.i`

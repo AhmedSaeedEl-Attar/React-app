@@ -1,0 +1,76 @@
+.WeratherSeaction {
+  width: 100%;
+  min-height: 86vh;
+  background: linear-gradient(45deg, #4152cc, #ff9800);
+  overflow: hidden;
+}
+.weathercontent {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto 0px;
+  background: darkorchid;
+  padding: 60px;
+  width: 60%;
+  border-radius: 10px;
+  box-shadow: -5px 9px 20px 0px;
+}
+.weatherform {
+  display: flex;
+  flex-direction: column;
+}
+.weatherform input {
+  width: 250px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 0;
+  background: #ebd5d5de;
+  color: #fff !important;
+  font-size: 18px;
+  border-bottom: 2px solid #000;
+  border-radius: 8px;
+}
+.weatherform input:focus {
+  outline: 0;
+}
+.weatherform button {
+  width: 65px;
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 12px;
+  background-color: darkblue;
+  color: #fff;
+  border: 0;
+  outline: 0;
+  box-shadow: -5px 4px 20px 0px #fff;
+}
+.showdata {
+  background: orangered;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  border-radius: 10px;
+  box-shadow: -5px 4px 20px 0px #fff;
+}
+.showdata p {
+  font-size: 25px;
+  color: #fff;
+  margin-bottom: 2px;
+  border-bottom: 1.5px solid;
+  width: 400px;
+  text-align: left;
+}
+@media all and (max-width: 750px) {
+  .weathercontent {
+    width: 90%;
+  }
+  .showdata p {
+    font-size: 18px;
+    width: 238px;
+  }
+}

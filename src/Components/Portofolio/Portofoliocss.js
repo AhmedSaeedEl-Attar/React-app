@@ -15,6 +15,9 @@ export const PortooDiv = styled.div`
   justify-content: space-between;
   width: 70%;
   margin: auto;
+  @media (max-width: 750px) {
+    width: 100%;
+  }
 `;
 export const PortooDivP = styled.p`
   font-size: 20px;
@@ -23,6 +26,10 @@ export const PortooDivP = styled.p`
   background: orangered;
   border-radius: 9px;
   cursor: pointer;
+  @media (max-width: 750px) {
+    font-size: 10px;
+    padding: 10px 15px;
+  }
 `;
 export const Images = styled.div`
   margin-top: 30px;
@@ -60,4 +67,9 @@ export const OverlayP = styled.div`
   background: #fff;
   padding: 12px;
   border-radius: 10px;
+  @media (max-width: 750px) {
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 7px;
+  }
 `;

@@ -33,6 +33,12 @@ a {
   cursor: pointer;
   font-weight: 500;
 }
+@media (max-width: 750px) {
+  .lin {
+    font-size: 10px;
+    font-weight: 700;
+  }
+}
 .lin:hover {
   color: rgb(226, 38, 38);
 }

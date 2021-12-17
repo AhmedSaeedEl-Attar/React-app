@@ -17,6 +17,9 @@ export const NavContent = styled.div`
 export const Logo = styled.div`
   font-size: 30px;
   font-weight: 600;
+  @media (max-width: 750px) {
+    font-size: 20px;
+  }
 `;
 export const NavLinks = styled.ul`
   display: flex;
@@ -24,6 +27,9 @@ export const NavLinks = styled.ul`
   align-items: center;
   justify-content: space-between;
   list-style: none;
+  @media (max-width: 750px) {
+    width: 90%;
+  }
 `;
 export const Linka = styled.a`
   text-decoration: none;
@@ -31,7 +37,10 @@ export const Linka = styled.a`
   color: #000;
   cursor: pointer;
   font-weight: 500;
-
+  @media (max-width: 750px) {
+    font-size: 10px;
+    font-weight: 700;
+  }
   &:hover {
     color: rgb(226, 38, 38);
   }

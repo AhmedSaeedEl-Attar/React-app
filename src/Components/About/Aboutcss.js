@@ -23,16 +23,29 @@ export const AboutContent = styled.div`
 export const AboutContentP1 = styled.div`
   font-size: 35px;
   margin-bottom: 10px;
+  @media (max-width: 750px) {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
 `;
 export const AboutContentP2 = styled.div`
   font-size: 40px;
   margin-bottom: 10px;
   color: chocolate;
   font-weight: 600;
+  @media (max-width: 750px) {
+    font-size: 31px;
+    margin-bottom: 10px;
+  }
 `;
 export const AboutContentP3 = styled.div`
   margin-bottom: 10px;
   line-height: 1.4;
+  @media (max-width: 750px) {
+    margin-bottom: 4px;
+    line-height: 1;
+    font-size: 10px;
+  }
 `;
 export const SocialContent = styled.div`
   position: absolute;
@@ -56,10 +69,20 @@ export const SocialItemI = styled.i`
   margin-right: 15px;
   border-radius: 10px;
   box-shadow: 2px 4px 5px;
+  @media (max-width: 750px) {
+    padding: 9px;
+    margin-right: 9px;
+    margin-left: 5px;
+    border-radius: 10px;
+  }
 `;
 
 export const SocialItemP = styled.p`
   font-size: 20px;
   color: #fff;
   margin-bottom: 5px;
+  @media (max-width: 750px) {
+    font-size: 12px;
+    margin-bottom: 2px;
+  }
 `;
